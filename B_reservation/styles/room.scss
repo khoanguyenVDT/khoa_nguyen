@@ -1,0 +1,27 @@
+#rooms {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+    .text-center {
+      text-align: center;
+    }
+  }
+  
+  #rooms td, #rooms th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #rooms tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #rooms tr:hover {background-color: #ddd;}
+  
+  #rooms th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+  }
+
